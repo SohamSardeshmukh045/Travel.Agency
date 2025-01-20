@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10%;
+}
+header .logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: blue;
+    text-transform: uppercase;
+}
+header .logo span {
+    color: red;
+}
+header .navbar a {
+    color: white;
+    margin: 2rem;
+    font-size: larger;
+    font-weight: 500;
+}
+header .navbar a:hover {
+    color: red;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+header h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 20rem;
+    margin-top: 2.2rem;
+    color: white;
+}
+header h4 {
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 8px;
+}
+.hotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section_container {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.section_container:hover {
+    transform: translateY(-10px);
+}
+
+.user-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #ddd;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card_button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #ff5e00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card_button:hover {
+    background-color: #ff3d00;
+}
+.black-box {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1300px;
+}
+.black-box h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.black-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}

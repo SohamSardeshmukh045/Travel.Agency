@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c:\Users\soham\Downloads\Travel Agency_files\swiper-bundle.min.css">
+    <link rel="stylesheet" href="flights_details.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span> TRAVEL</span> AGENCY</a>
+        <nav class="navbar">
+            <a href="flights_details.html?logo=home">FLIGHTS</a>
+            <a href="hotels_details.html?logo=hotels">HOTELS</a>
+            <a href="">TRAINS</a>
+            <a href="">CABS</a>
+            <a href="#">SPECIAL PACKAGES</a>
+            <button id="loginBtn">Login</button>
+        </nav>
+    </header>
+    <section class="form" id="form1">
+        <form action="">
+            <h2>COMPARE AND BOOK FLIGHTS WITH EASE</h2>
+            <div class="inputBox flights-dropdown">
+                <label for="flights1">FROM WHERE?</label>
+                <select id="flights1" name="flights1">
+                    <option value="FROM WHERE">FROM WHERE?</option>
+                    <option value="Harry Reid International Airport">Harry Reid International Airport, USA</option>
+                    <option value="Toronto Pearson International Airport">Toronto Pearson International Airport, Canada</option>
+                    <option value="London Heathrow Airport">London Heathrow Airport, UK</option>
+                    <option value="Berlin Brandenburg Airport">Berlin Brandenburg Airport, GERMANY</option>
+                    <option value="Paris Charles de Gaulle Airport">Paris Charles de Gaulle Airport, FRANCE</option>
+                    <option value="Sydney Airport">Sydney Airport, AUSTRALIA</option>
+                    <option value="Chhatrapati Shivaji International Airport">Chhatrapati Shivaji International Airport, MUMBAI</option>
+                    <option value="Haneda Airport">Haneda Airport, JAPAN</option>
+                    <option value="Brasília International Airport">Brasília International Airport, BRAZIL</option>
+                </select>
+            </div>
+            <div class="inputBox flights-dropdown">
+                <label for="flights2">WHERE TO?</label>
+                <select id="flights2" name="flights2">
+                    <option value="WHERE TO">WHERE TO?</option>
+                    <option value="Harry Reid International Airport">Harry Reid International Airport, USA</option>
+                    <option value="Toronto Pearson International Airport">Toronto Pearson International Airport, Canada</option>
+                    <option value="London Heathrow Airport">London Heathrow Airport, UK</option>
+                    <option value="Berlin Brandenburg Airport">Berlin Brandenburg Airport, GERMANY</option>
+                    <option value="Paris Charles de Gaulle Airport">Paris Charles de Gaulle Airport, FRANCE</option>
+                    <option value="Sydney Airport">Sydney Airport, AUSTRALIA</option>
+                    <option value="Chhatrapati Shivaji International Airport">Chhatrapati Shivaji International Airport, MUMBAI</option>
+                    <option value="Haneda Airport">Haneda Airport, JAPAN</option>
+                    <option value="Brasília International Airport">Brasília International Airport, BRAZIL</option>
+                </select>
+            </div>
+        </form>
+    </section>    
+    <section class="flights" id="flights">
+        <div class="section_container flights_container">
+            <h2>POPULAR FLIGHTS NEAR YOU</h2>
+        </div>
+    </section>
+    <div class="container swiper flights-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="flights_details.html?destination=Mumbai to NEW YORK">
+                    <img src="image.flights.html/pexels-pauldeetman-2695679.jpg" alt="User Image" class="user-image">
+                    <h4>Mumbai to NYC</h4>
+                    <a href="#" class="card_button">22 Jan to 20 Jan</a>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="flights_details.html?destination=Mumbai to Berlin">
+                    <img src="image.flights.html/berlin.jpg" alt="User Image" class="user-image">
+                    <h4>Mumbai to Berlin</h4>
+                    <a href="#" class="card_button">2o Jan to 25 Jan</a>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="flights_details.html?destination=Mumbai to Sydney">
+                    <img src="image.flights.html/pexels-pixabay-37646.jpg" alt="User Image" class="user-image">
+                    <h4>Mumbai to Sydney</h4>
+                    <a href="#" class="card_button">21 Jan to 24 Jan</a>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="flights_details.html?destination=Mumbai to London">
+                    <img src="image.flights.html/pexels-pixabay-64271.jpg" alt="User Image" class="user-image">
+                    <h4>Mumbai to London</h4>
+                    <a href="#" class="card_button">18 Jan to 21 Jan</a>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="flights_details.html?destination=Mumbai to Paris">
+                    <img src="image.flights.html/paris-1850619.jpg" alt="User Image" class="user-image">
+                    <h4>Mumbai to Paris</h4>
+                    <a href="#" class="card_button">22 Jan to 23 Jan</a>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <section class="feature" id="feature">
+        <div class="section_container feature_container">
+            <h2>Our Top Features</h2>
+            <p class="section_description">Explore the unique features and benefits that set us apart</p>
+    
+            <div class="feature_card">
+                <img src="image.flights.html/1.png" alt="Feature Icon">
+                <div>
+                    <h3>Search a huge selection</h3>
+                    <p>Easily compare flights, airlines, and prices – all in one place.</p>
+                </div>
+            </div>
+    
+            <div class="feature_card">
+                <img src="image.flights.html/3.png" alt="Feature Icon">
+                <div>
+                    <h3>Pay no hidden fees</h3>
+                    <p>Get a clear price breakdown every step of the way</p>
+                </div>
+            </div>
+    
+            <div class="feature_card">
+                <img src="image.flights.html/2.png" alt="Feature Icon">
+                <div>
+                    <h3>Get more flexibility</h3>
+                    <p>Change your travel dates with the Flexible ticket option*.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="black-box">
+        <h2>Flights Booking FAQs</h2>
+        <h3>What are the advantages of online flight booking?</h3>
+        <p>Through online air ticket booking you can easily compare prices of multiple airlines to get your air tickets at lowest rates. Also, it is easy to do online flight booking as multiple payment options are available on websites like Goibibo</p>
+            <h3>When should I book to get best flight ticket prices? </h3>
+            <p>For best flight ticket prices and flight ticket offers, it is recommended to book at least 3 to 4 weeks in advance for domestic air tickets. For international flight ticket it is recommended to book at least 7 to 8 weeks in advance, so that you can get the best flight ticket prices.</p>
+            <h3>How can I book flight tickets online? </h3>    
+            <p>With the help of you can easily book both domestic flight tickets and international air tickets in simple steps within a few seconds.</p>
+            <h3>Why should I make a flight booking from </h3>
+            <p>Along with an easy flight booking process offers various discounts, instant EMI options and credit/ debit card related offers on flight booking. By availing such benefits, you can book air tickets at reasonable prices.</p>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.flights-slider', {
+            loop: true, 
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true, 
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 1,
+            spaceBetween: 20, 
+            breakpoints: {
+                640: {
+                    slidesPerView: 2, 
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 4, 
+                },
+            }
+        });
+    </script>
+</body>
+</html>
